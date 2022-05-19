@@ -76,7 +76,6 @@ class WordAdapter(private val letterId: String, context: Context) :
      * Replaces the content of an existing view with new data
      */
     override fun onBindViewHolder(holder: WordViewHolder, position: Int) {
-
         val item = filteredWords[position]
         // Needed to call startActivity
         val context = holder.view.context
