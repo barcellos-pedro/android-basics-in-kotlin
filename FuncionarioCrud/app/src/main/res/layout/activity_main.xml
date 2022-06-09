@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:paddingBottom="62dp"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/id_label"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID" />
+
+        <EditText
+            android:id="@+id/id_input"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_label"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:hint="Digite seu número" />
+
+        <TextView
+            android:id="@+id/nome_label"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_input"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"
+            android:text="Nome" />
+
+        <EditText
+            android:id="@+id/nome_input"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nome_label"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:hint="Digite seu nome" />
+
+        <TextView
+            android:id="@+id/cargo_label"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nome_input"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"
+            android:text="Cargo" />
+
+        <EditText
+            android:id="@+id/cargo_input"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cargo_label"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:hint="Digite seu cargo" />
+
+        <TextView
+            android:id="@+id/data_label"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cargo_input"
+            android:layout_marginTop="16dp"
+            android:text="Data admissão" />
+
+        <EditText
+            android:id="@+id/data_input"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/data_label"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:hint="Digite a data" />
+
+        <TextView
+            android:id="@+id/endereco_label"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/data_input"
+            android:layout_marginTop="16dp"
+            android:text="Endereço" />
+
+        <EditText
+            android:id="@+id/endereco_input"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/endereco_label"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:hint="Digite o endereço" />
+
+        <Button
+            android:id="@+id/inserir"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/endereco_input"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:text="Inserir" />
+
+        <Button
+            android:id="@+id/alterar"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/inserir"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:text="Alterar" />
+
+        <Button
+            android:id="@+id/excluir"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/endereco_input"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="32dp"
+            android:text="excluir" />
+
+        <Button
+            android:id="@+id/consultar"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/excluir"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:text="Consultar" />
+
+    </RelativeLayout>
+
+</ScrollView>

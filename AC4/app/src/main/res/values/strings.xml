@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AC4</string>
+    <string name="primeira_nota">Digite a primeira nota</string>
+    <string name="segunda_nota">Digite a segunda nota</string>
+    <string name="terceira_nota">Digite a terceira nota</string>
+    <string name="quarta_nota">Digite a quarta nota</string>
+    <string name="calcular">Calcular</string>
+</resources>
